@@ -11,3 +11,4 @@
 | Ejercicio_7 | [Clustering con k-medias, ejercicio 1](Clustering%20K-medias/Ejercicios/ejercicio-01.md) |
 | Ejercicio_8 | [Q-learning, ejercicio 1](Q-learning/ejercicios/ejercicio-01.md) |
 | Ejercicio_9 | [Razonamiento lógico, ejercicio 1](Razonamiento%20lógico/ejercicios/ejercicio-01.md) |
+| Ejercicio_10 | [Visión computacional, ejercicio 1](Visión%20computacional/Ejercicios/ejercicio-01.md) |
