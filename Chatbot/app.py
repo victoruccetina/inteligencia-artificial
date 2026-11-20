@@ -49,10 +49,12 @@ def reset_chat(provider: str, model: str) -> None:
     st.session_state.messages = []
     if provider == "Gemini":
         client = genai.Client(api_key=GEMINI_API_KEY)
+        st.session_state.gemini_client = client
         st.session_state.gemini_chat = client.chats.create(model=model)
         st.session_state.openai_client = None
     else:
         st.session_state.openai_client = OpenAI(api_key=OPENAI_API_KEY)
+        st.session_state.gemini_client = None
         st.session_state.gemini_chat = None
 
 
